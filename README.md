@@ -33,9 +33,13 @@ A full subtractor is a combinational circuit that performs subtraction involving
 Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 
 # Procedure
+ 
  Using xor ,and,not gates and wires,construct Half Subtractor.
+ 
  Repeat same steps to construct Full Subtractor
+ 
  Find RTL logic and timing diagram for both Subtractors
+ 
  End the program
 
 # Program:
