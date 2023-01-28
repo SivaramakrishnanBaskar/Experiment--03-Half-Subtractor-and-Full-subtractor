@@ -33,10 +33,10 @@ A full subtractor is a combinational circuit that performs subtraction involving
 Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 
 # Procedure
-# Using xor ,and,not gates and wires,construct Half Subtractor.
-# Repeat same steps to construct Full Subtractor
-# Find RTL logic and timing diagram for both Subtractors
-# End the program
+ Using xor ,and,not gates and wires,construct Half Subtractor.
+ Repeat same steps to construct Full Subtractor
+ Find RTL logic and timing diagram for both Subtractors
+ End the program
 
 # Program:
 ```
@@ -46,8 +46,11 @@ Developed by: SivaramaKrishnan B
 
 RegisterNumber: 22006798
 
-Half Subtractor
+```
 
+# Half Subtractor
+
+```
 module HalfSubtractor(A,B,Diff,Borrow);
 
 input A,B;
@@ -63,9 +66,11 @@ not(x,A);
 and(Borrow,x,B);
 
 endmodule
+```
 
 # Full Subtractor
 
+```
 module FullSubtractor(A,B,C,Diff,Borrow);
 
 input A,B,C;
@@ -87,7 +92,7 @@ endmodule
 
 # HALF SUBRACTOR
 
-#Truth Table
+# Truth Table
 ![Screenshot (82)](https://user-images.githubusercontent.com/119476322/215167353-15b8e628-0a88-4f24-9c6a-952f9df5f60a.png)
 
 # RTL Realisation 
